@@ -1,0 +1,35 @@
+{
+  "authors": [
+    { "id": 1, "name": "George Orwell", "bio": "English novelist and essayist, known for his sharp wit and criticism of totalitarianism." },
+    { "id": 2, "name": "J.K. Rowling", "bio": "British author best known for the Harry Potter fantasy series." },
+    { "id": 3, "name": "Frank Herbert", "bio": "American science fiction author, best known for the Dune series." }
+  ],
+  "books": [
+    { "id": 1, "title": "1984", "isbn": "978-0-452-28423-4", "year_published": 1949, "available_copies": 3 },
+    { "id": 2, "title": "Animal Farm", "isbn": "978-0-452-28424-1", "year_published": 1945, "available_copies": 2 },
+    { "id": 3, "title": "Harry Potter and the Philosopher's Stone", "isbn": "978-0-7475-3269-9", "year_published": 1997, "available_copies": 4 },
+    { "id": 4, "title": "Harry Potter and the Chamber of Secrets", "isbn": "978-0-7475-3849-3", "year_published": 1998, "available_copies": 2 },
+    { "id": 5, "title": "Dune", "isbn": "978-0-441-17271-9", "year_published": 1965, "available_copies": 3 }
+  ],
+  "book_authors": [
+    { "book_id": 1, "author_id": 1 },
+    { "book_id": 2, "author_id": 1 },
+    { "book_id": 3, "author_id": 2 },
+    { "book_id": 4, "author_id": 2 },
+    { "book_id": 5, "author_id": 3 }
+  ],
+  "members": [
+    { "id": 1, "name": "Alice Johnson", "email": "alice@email.com", "membership_date": "2023-01-15" },
+    { "id": 2, "name": "Bob Smith", "email": "bob@email.com", "membership_date": "2023-03-22" },
+    { "id": 3, "name": "Carol White", "email": "carol@email.com", "membership_date": "2023-06-10" },
+    { "id": 4, "name": "David Brown", "email": "david@email.com", "membership_date": "2024-01-05" }
+  ],
+  "borrowings": [
+    { "id": 1, "book_id": 1, "member_id": 1, "checkout_date": "2025-05-01", "return_date": "2025-05-10" },
+    { "id": 2, "book_id": 3, "member_id": 2, "checkout_date": "2025-05-15", "return_date": "2025-05-28" },
+    { "id": 3, "book_id": 5, "member_id": 3, "checkout_date": "2025-05-20", "return_date": null },
+    { "id": 4, "book_id": 2, "member_id": 4, "checkout_date": "2025-04-01", "return_date": null },
+    { "id": 5, "book_id": 4, "member_id": 1, "checkout_date": "2025-04-10", "return_date": "2025-04-20" },
+    { "id": 6, "book_id": 1, "member_id": 2, "checkout_date": "2025-03-01", "return_date": null }
+  ]
+}
